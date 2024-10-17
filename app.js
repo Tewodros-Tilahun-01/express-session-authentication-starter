@@ -69,6 +69,6 @@ app.use(routes);
 /**
  * -------------- SERVER ----------------
  */
-
+const port = process.env.PORT || 4000;
 // Server listens on http://localhost:3000
-app.listen(5002);
+app.listen(port);
